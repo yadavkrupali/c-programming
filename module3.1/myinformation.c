@@ -1,3 +1,4 @@
+// Dislay the information using input
 #include <stdio.h>
 void main()
 {

@@ -1,3 +1,4 @@
+// WAP to find simple intrest
 #include <stdio.h>
 void main()
 {

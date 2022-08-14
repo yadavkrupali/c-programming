@@ -1,3 +1,4 @@
+// WAP to make simple calculator
 #include <stdio.h>
 void main()
 {
