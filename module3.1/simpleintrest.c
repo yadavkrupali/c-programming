@@ -12,6 +12,6 @@ void main()
     printf("Enter the time:");
     scanf("%d", &time);
 
-    simple_interest = principal * rate * time;
+    simple_interest = principal * rate * time / 100;
     printf("%d\n", simple_interest);
 }
