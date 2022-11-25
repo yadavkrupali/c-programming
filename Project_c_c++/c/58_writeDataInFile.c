@@ -1,0 +1,1 @@
+// Write a program to write data in file.

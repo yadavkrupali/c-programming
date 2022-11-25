@@ -48,7 +48,8 @@ public:
 
 int main()
 {
-    int user_select_no, num1, num2;
+    char user_select_no;
+    int num1, num2;
 
     cout << "Enter number 1: ";
     cin >> num1;
@@ -65,28 +66,25 @@ int main()
 
     switch (user_select_no)
     {
-    case 1:
+    case '1':
+    {
         A c = a + b;
-        break;
-
-        // case 2:
-        //     A c = a - b;
-        //     break;
     }
-    // switch (user_select_no)
-    // {
-    // case 1:
-    //     A c = a + b;
-    //     break;
-    // case 2:
-    //     A c1 = a - b;
-    //     break;
-    // case 3:
-    //     A c2 = a * b;
-    //     break;
-
-    // default:
-    //     cout << "select 1 to 3 number";
-    //     break;
-    // }
+    break;
+    case '2':
+    {
+        A ca = a - b;
+    }
+    break;
+    case '3':
+    {
+        A cb = a * b;
+    }
+    break;
+    default:
+    {
+        cout << "select 1 to 3 number";
+    }
+    break;
+    }
 }
